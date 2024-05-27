@@ -1,12 +1,11 @@
-Hello friend! 
+Hello! 
 
 This starter repository contains a few linked HTML, CSS, and JavaScript webpage files that you can use as a basis for your own website.
 
-In addition to the frontend code, we've included a simple Web server that will run locally and serve your project files to your web browser over HTTP.
+In addition to the frontend code, I've included a simple Web server that will run locally and serve your project files to your web browser over HTTP.
 
 ## Cloning the repository
 
-If you're here after accepting a GitHub Classroom assignment, you'll have your own copy of this starter repository in your GitHub account.
 You can [clone it](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the typical way, using the `git` commandline tool.
 
 It's important to **clone** the repository rather than just downloading its contents (say, as a ZIP file).
@@ -67,12 +66,6 @@ HOST=0.0.0.0 PORT=3000 node server.js
 ```
 
 This is handy if you already have a process running on port 8000 or if you need to bind to a more public network interface (typically useful **if you want to connect to the server from other devices on your network**, like a mobile phone).
-
-### Poke around
-
-You may not need to make any changes to the server code for your assignment, but it doesn't hurt to read the code and try making some changes.
-Since you're using version control, you can always reset the server code if you break anything!
-Make sure to stop and restart the server each time you make changes.
 
 I've written some code comments to point out various Express features that control the server's behavior.
 
